@@ -1,37 +1,41 @@
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   background-attachment: fixed;
   background-image: url(pokeBG.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  width: 960px;
-  margin: 0 auto;
-  padding-top: 0px;
   text-align: center;
   font-family: sans-serif;
 }
 
 div.main{
+  position: fixed;
   background-color: white;
-  width: 95%;
+  width: 70%;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 22px;
-  padding-bottom: 20px;
-  padding: 0px;
-  
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: -1; 
+}
+
+div.block{
+  height: 15px;
 }
 
 .nav {
   background-color: white;
   position: fixed;
-  width: 67.1%;
-  border-style: solid;
+  width: 69%;
+  /*border-style: solid;*/
   border-color: black;
-  border-width: 1px;
-  margin-top: -80px;
-  left: 50%;
+  margin-top: -15px;
+  padding: 5px;
+  margin-left: 50%;
   transform: translateX(-50%);
+  border-bottom: solid 1px;
 }
 
 .nav table {
@@ -44,7 +48,7 @@ div.main{
 }
 
 .nav th {
-  width: 45%;
+  width: 25%;
   border-right: solid black;
   border-right-width: 1px;
 }
@@ -52,12 +56,65 @@ div.main{
   border-right: none;
 }
 
+h1 {
+  padding-top: 5px;
+  margin-top: 10px;
+  
+}
+
 h2{
     display: block;
-    font-size: 2em;
+    font-size: 2.0em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+  margin: 10px;
+}
+
+.image_source {
+  font-size: 0.5em;
+}
+
+#home_sub {
+  font-size: 1.5em;
+}
+
+.p_head {
+  text-align: left;
+  width: 65%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pokemain {
+  width: 68%;
+}
+
+table.body {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+table.body td {
+  border-style: solid;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+table.body th {
+  border-style: solid;
+  border-width: 1px;
+  border-collapse: collapse;
 }
