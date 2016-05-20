@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
   padding-top: 0px;
   text-align: center;
+  font-family: sans-serif;
 }
 
 div.main{
@@ -15,8 +16,48 @@ div.main{
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -20px;
+  margin-top: 22px;
   padding-bottom: 20px;
+  padding: 0px;
   
 }
 
+.nav {
+  background-color: white;
+  position: fixed;
+  width: 67.1%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav table {
+  margin-left: auto;
+  margin-right: auto;
+  width: inherit;
+  text-align: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.nav th {
+  width: 45%;
+  border-right: solid black;
+  border-right-width: 1px;
+}
+.nav th:last-child {
+  border-right: none;
+}
+
+h2{
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
